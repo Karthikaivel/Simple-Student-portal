@@ -1,0 +1,42 @@
+<ion-content class="login-content" padding>
+  <ion-row calss="logo-row">
+    <ion-col></ion-col>
+    <ion-col width-67>
+        </ion-col>
+    <ion-col></ion-col>
+  </ion-row>
+  <div class="login-box">
+      <ion-row>
+        <ion-col>
+          <ion-list inset>
+
+          	<ion-item>
+              <ion-label><ion-icon name="person" color="dark"></ion-icon></ion-label>
+              <ion-input type="text" name="username" placeholder="User Name" ></ion-input>
+            </ion-item>
+            
+            <ion-item>
+              <ion-label><ion-icon name="mail" color="dark"></ion-icon></ion-label>
+              <ion-input type="email" name="email" placeholder="Example@mail.com" ></ion-input>
+            </ion-item>
+            
+            <ion-item>
+              <ion-label><ion-icon name="key" color="dark"></ion-icon></ion-label>
+              <ion-input type="password" name="password" placeholder="password" ></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label><ion-icon name="key" color="dark"></ion-icon></ion-label>
+              <ion-input type="password" name="password" placeholder="Re-Enter password" ></ion-input>
+            </ion-item>
+            
+          </ion-list>
+        </ion-col>
+      </ion-row>
+      
+      <ion-row>
+        <ion-col class="signup-col">
+          <button ion-button round color="twitter" (click)="register()">Register&nbsp;<ion-icon name="log-out"></ion-icon></button>
+        </ion-col>
+      </ion-row>  
+  </div>
+</ion-content>
